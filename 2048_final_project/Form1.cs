@@ -208,6 +208,7 @@ namespace _2048_final_project
         }
         public void Gameover()
         {
+
             GameOver_Form over = new GameOver_Form();
             over.score = g.score.ToString();
             if (g.score > g.best)
